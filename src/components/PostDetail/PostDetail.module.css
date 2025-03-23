@@ -1,0 +1,42 @@
+.postDetail {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.postMeta {
+  color: #666;
+  font-size: 0.9rem;
+  display: flex;
+  gap: 8px;
+  margin: 10px 0 20px;
+}
+
+.content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.comments {
+  margin-top: 40px;
+}
+
+.comment {
+  padding: 20px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.commentMeta {
+  color: #666;
+  font-size: 0.9rem;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.commentContent {
+  font-size: 1rem;
+  line-height: 1.5;
+}
